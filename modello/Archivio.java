@@ -34,7 +34,7 @@ public class Archivio {
                     if (azienda.getDipendenti().get(i-1).getCodiceFiscale().equalsIgnoreCase(dipendente.getCodiceFiscale())) {
                         return true;
                     }
-//                     ciao sono Michele
+//                     ciao sono Arcadio
                 }
             }
         }
