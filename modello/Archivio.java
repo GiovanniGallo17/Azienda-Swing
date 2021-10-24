@@ -28,15 +28,7 @@ public class Archivio {
     }
 
     public boolean verificaArchivio() {
-        for (Azienda azienda : aziende) {
-            for (Dipendente dipendente : azienda.getDipendenti()) {
-                for (int i=1; i<azienda.getDipendenti().size(); i++) {
-                    if (azienda.getDipendenti().get(i-1).getCodiceFiscale().equalsIgnoreCase(dipendente.getCodiceFiscale())) {
-                        return true;
-                    }
-                }
-            }
-        }
+
         return false;
 
     }
